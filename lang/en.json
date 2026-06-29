@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Portfolio",
+    "opensource": "Open Source",
+    "timeline": "Timeline",
+    "skills": "Tech Stack",
+    "contact": "Contact",
+    "documents": "Docs"
+  },
+  "intro": {
+    "avatarAlt": "QYX's avatar",
+    "title": "Hello, I'm QYX",
+    "desc": "Yuxin Qi<br>First-year graduate student majoring in Industrial Design Engineering<br>Beijing University of Technology<br>Email: 2098986711@qq.com"
+  },
+  "projects": {
+    "title": "My Projects",
+    "imgAlt": "Project image",
+    "viewDetail": "View Details",
+    "item1": {
+      "title": "Late-night Emotional Flow Perception System Design",
+      "desc": "This project designs and implements an emotion-aware interactive system based on physiological signals. The system continuously collects galvanic skin response (GSR) data to monitor users’ real-time emotional arousal levels. A time-based hierarchical response mechanism is introduced to distinguish between short-term fluctuations and sustained emotional states.\nIn the feedback layer, the system combines both visual and auditory modalities, using light signals and voice prompts to represent emotional changes in a more intuitive way. A user-confirmation mechanism is also incorporated, allowing the system to return to its baseline state after the user actively confirms recovery. This creates a complete closed-loop interaction process.\nOverall, this design explores the potential of using physiological data in emotion-regulating interactive systems.",
+      "tags": ["Industrial_Design", "Product_Design", "Innovative_Design"]
+    },
+    "item2": {
+      "title": "project2",
+      "desc": "Project description.",
+      "tags": ["tag1", "tag2", "tag3"]
+    },
+    "item3": {
+      "title": "project3",
+      "desc": "Project description.",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  },
+  "project1": {
+    "title": "Late-night Emotional Flow Perception System Design",
+    "desc": "This project designs and implements an emotion-aware interactive system based on physiological signals. The system continuously collects galvanic skin response (GSR) data to monitor users’ real-time emotional arousal levels. A time-based hierarchical response mechanism is introduced to distinguish between short-term fluctuations and sustained emotional states.\nIn the feedback layer, the system combines both visual and auditory modalities, using light signals and voice prompts to represent emotional changes in a more intuitive way. A user-confirmation mechanism is also incorporated, allowing the system to return to its baseline state after the user actively confirms recovery. This creates a complete closed-loop interaction process.\nOverall, this design explores the potential of using physiological data in emotion-regulating interactive systems.",
+    "links": {
+      "github": "Code",
+      "website": "Website",
+      "bilibili": "Feishu Wiki"
+    }
+  },
+  "project2": {
+    "title": "project2",
+    "desc": "Project description.",
+    "links": {
+      "github": "Code",
+      "techDoc": "Docs",
+      "demo": "Demo"
+    }
+  },
+  "project3": {
+    "title": "project3",
+    "desc": "Project description.",
+    "links": {
+      "github": "Code",
+      "techDoc": "Docs",
+      "demo": "Demo"
+    }
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "bilibili": "Bilibili",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "zhihu": "Zhihu"
+  },
+  "footer": {
+    "copyright": "© 2026 QYX | Personal Homepage"
+  }
+}

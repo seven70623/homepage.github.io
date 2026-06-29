@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QYX's Homepage</title>
+  
+  <script>
+    const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+</head>
+
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-text">QYX-HomePage</span>
+        <div class="logo-dot"></div>
+      </a>
+      
+      <div class="nav-actions">
+        <div class="nav-links">
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+        </div>
+        
+        <div class="nav-controls">
+          <button class="control-btn lang-toggle" aria-label="Toggle Language">中文</button>
+          <button class="control-btn theme-toggle" aria-label="Toggle Theme">
+            <i class="fas fa-sun sun-icon"></i>
+            <i class="fas fa-moon moon-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="intro" class="intro">
+    <div class="bg-decoration"></div>
+    <div class="container flex-center column">
+      <div class="avatar-container">
+        <img src="assets/images/Avatar1.jpg" alt="Avatar" class="avatar" data-i18n="intro.avatarAlt">
+        <div class="avatar-glow"></div>
+      </div>
+      <h1 class="gradient-text" data-i18n="intro.title">Hello, I'm QYX</h1>
+      <p class="subtitle" data-i18n="intro.desc">...</p>
+      <div class="intro-contact-links" aria-label="Social Links"></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <h2 data-i18n="projects.title">My Projects</h2>
+      <div class="projects-grid"></div>
+    </div>
+  </section>
+
+  <footer data-i18n="footer.copyright">© 2026 Lain-Ego. All rights reserved.</footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
